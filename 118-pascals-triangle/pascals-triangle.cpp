@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
-        // DONE
         vector<vector<int>> final;
         for(int i=1;i<=numRows;i++){
             vector<int> temp;
