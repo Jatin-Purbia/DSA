@@ -6,7 +6,7 @@ public:
         int el=INT_MIN;
         int n = nums.size();
         for(int i=0;i<n;i++){
-            if(cnt==0 || el!=nums[i]){
+            if(el!=nums[i]){
                 cnt=1;
                 el=nums[i];
             }
