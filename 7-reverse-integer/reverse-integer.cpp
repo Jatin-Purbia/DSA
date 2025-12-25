@@ -8,9 +8,8 @@ public:
             cnt++;
         }
         while(x!=0){
-            int temp=x%10;
+            ans=ans + (x%10)*pow(10,cnt);
             x=x/10;
-            ans=ans + temp*pow(10,cnt);
             cnt--;
 
         }
